@@ -1,0 +1,23 @@
+@import 'normalize';
+@import 'racer';
+@import 'track';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.winner-box {
+  display: none;
+}
