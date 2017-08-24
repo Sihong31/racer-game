@@ -421,8 +421,13 @@ template {
   height: 440px; }
   .track-container .race-track {
     border: 2px solid #000000;
+    position: relative;
     margin: 0 0 20px 0;
     height: 200px; }
+    .track-container .race-track .track-racer {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
 
 html {
   box-sizing: border-box; }
